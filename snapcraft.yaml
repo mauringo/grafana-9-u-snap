@@ -48,7 +48,7 @@ parts:
   grafana:
     plugin: dump
     source:
-         - on amd64: https://dl.grafana.com/enterprise/main/grafana-enterprise_9.0.0_amd64.deb
-         - on arm64: https://dl.grafana.com/enterprise/main/grafana-enterprise_9.0.0_arm64.deb
+         - on amd64: https://dl.grafana.com/enterprise/release/grafana-enterprise_9.0.0_amd64.deb
+         - on arm64: https://dl.grafana.com/enterprise/release/grafana-enterprise_9.0.0_arm64.deb
     stage-packages: [libfontconfig1, libfreetype6]
 
